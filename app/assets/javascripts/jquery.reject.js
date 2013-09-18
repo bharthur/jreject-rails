@@ -327,7 +327,7 @@ $.reject = function(options) {
 	// Wrapper for inner centered content (div)
 	element.find('#jr_inner').css({
 		minWidth: displayNum*100,
-		maxWidth: displayNum*140,
+		maxWidth: displayNum*148.4,
 		// min/maxWidth not supported by IE
 		width: $.layout.name == 'trident' ? displayNum*155 : 'auto'
 	});
